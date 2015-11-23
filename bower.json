@@ -1,0 +1,23 @@
+{
+  "name": "modulerr",
+  "main": "modulerr.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vgamula/modulerr",
+  "authors": [
+    "Volodymyr Gamula <v.gamula@gmail.com>"
+  ],
+  "description": "Modulerr provides marionette.js-like modules",
+  "keywords": [
+    "Marionette.js",
+    "modules",
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
