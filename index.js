@@ -1,1 +1,1 @@
-window.Project = window.Modulerr('_apps');
+window.Project = window.Modulerr();
