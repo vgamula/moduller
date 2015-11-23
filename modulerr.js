@@ -1,18 +1,21 @@
-(function() {
-    function modulerr() {
-        var obj = {
-            module: function(path, cb) {
-                var dest = this;
-                path.split('.').forEach(function(chunk) {
-                    if (!dest[chunk]) {
-                        dest[chunk] = {};
-                    }
-                    dest = dest[chunk];
-                });
+window.Modulerr = function () {
+    return {
+        module: function(path, cb) {
+            var dest = this;
+            var chunks = path.split('.');
+            if (chunks[0] === 'module') {
+                console.error('You have no ability to set path like `module`!');
+                return false;
+            }
+            chunks.forEach(function(chunk) {
+                if (!dest[chunk]) {
+                    dest[chunk] = {};
+                }
+                dest = dest[chunk];
+            });
+            if (cb && typeof cb === 'function') {
                 cb(dest);
             }
-        };
-        return obj;
-    }
-    window.Modulerr = modulerr;
-})();
+        }
+    };
+};
