@@ -1,4 +1,4 @@
-window.Modulerr = function () {
+window.Moduller = function () {
     return {
         module: function(path, cb) {
             var dest = this;

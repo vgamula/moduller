@@ -1,16 +1,17 @@
 {
-  "name": "modulerr",
-  "main": "modulerr.js",
+  "name": "moduller",
+  "main": "moduller.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/vgamula/modulerr",
+  "homepage": "https://github.com/vgamula/moduller",
   "authors": [
     "Volodymyr Gamula <v.gamula@gmail.com>"
   ],
-  "description": "Modulerr provides marionette.js-like modules",
+  "description": "Moduller provides marionette.js-like modules",
   "keywords": [
     "Marionette.js",
     "modules",
-    "module"
+    "module",
+    "moduller"
   ],
   "license": "MIT",
   "ignore": [

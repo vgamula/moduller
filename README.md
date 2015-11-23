@@ -1,16 +1,16 @@
-Modulerr
+Moduller
 ==
 
 #### Description
-**Modulerr** is a simple tool to have [Marionette.js-like modules](marionettejs.com/docs/v2.4.3/marionette.module.html) without Marionette.js
+**Moduller** is a simple tool to have [Marionette.js-like modules](marionettejs.com/docs/v2.4.3/marionette.module.html) without Marionette.js
 
 #### Installation
-`bower install modulerr`
+`bower install moduller`
 
 #### Usage
 First of all you have to set up your Main application:
 ```js
-var App = Modulerr();
+var App = Moduller();
 ```
 Then you can generate your modules like by Marionette:
 ```js
