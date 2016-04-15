@@ -1,7 +1,7 @@
 {
   "name": "moduller",
   "main": "moduller.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "homepage": "https://github.com/vgamula/moduller",
   "authors": [
     "Volodymyr Gamula <v.gamula@gmail.com>"
