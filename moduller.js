@@ -23,10 +23,11 @@
         };
     });
 })(typeof define !== 'undefined' ? define : function(factory) {
-    debugger;
     if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
-        return module.exports = factory();
+        module.exports = factory();
+        return module.exports;
     } else {
-        return window.Moduller = factory();
+        window.Moduller = factory();
+        return window.Moduller;
     }
 });
