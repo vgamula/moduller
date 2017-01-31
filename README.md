@@ -5,7 +5,7 @@ Moduller
 **Moduller** is a simple tool to have [Marionette.js-like modules](marionettejs.com/docs/v2.4.3/marionette.module.html) without Marionette.js
 
 #### Installation
-`bower install moduller`
+`npm install moduller --save-dev`
 
 #### Usage
 First of all you have to set up your Main application:
